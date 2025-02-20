@@ -1,0 +1,64 @@
+.github-profile-container {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  padding: 1.5em;
+  height: 100dvh;
+}
+.github-profile-container > .input-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4em;
+  align-items: center;
+  width: inherit;
+  border-bottom: 3px solid teal;
+  padding: 1.3em;
+  width: 100%;
+}
+.github-profile-container > .input-wrapper > label {
+  font-size: 1.3em;
+  text-align: start;
+}
+.github-profile-container > .input-wrapper > #username-input {
+  padding: 0.5em;
+  border-radius: 6px;
+  border: 2px solid grey;
+  font-size: 1.1em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.github-profile-container > .github-users-container {
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 5em;
+  row-gap: 5em;
+  height: 50%;
+}
+.github-users-container > .github-user-wrapper{
+  border: 5px solid #FF6F61;
+  border-radius: 10px;
+}
+.github-users-container > .github-user-wrapper > .github-user-avatar-wrapper {
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.github-users-container > .github-user-wrapper > .github-user-avatar-wrapper > .github-user-avatar {
+  width: 100%;
+  max-width: 100%;
+}
+.github-users-container > .github-user-wrapper > .github-user-profile-summary{
+  text-align: center;
+}
+.github-users-container > .github-user-wrapper > .github-user-links{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}

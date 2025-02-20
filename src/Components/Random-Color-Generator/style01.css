@@ -1,0 +1,42 @@
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  place-content: center;
+  place-items: center;
+  display: flex;
+}
+h1 {
+  color: black;
+}
+/* .container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%
+} */
+.hex-btn {
+  background-color: burlywood;
+  padding: 1rem 1rem;
+}
+.rgb-btn {
+  background-color: burlywood;
+  padding: 1rem 1rem;
+}
+.container {
+  background: transparent;
+}
+.hex-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}
+.rgb-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+}

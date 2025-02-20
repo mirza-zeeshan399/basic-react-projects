@@ -1,0 +1,65 @@
+.header {
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: rgb(202, 255, 255);
+}
+.header > .toggle-navbar {
+  background-color: teal;
+  color: #ebb29e;
+  outline: none;
+  padding: 1rem 1.5rem 1rem 1.5rem;
+  transition: all 0.3s ease;
+  box-shadow: -3px 3px 3px grey;
+  border-radius: 5px;
+  font-size: 1.1rem;
+  z-index: 1000;
+}
+.header > .toggle-navbar:hover {
+  filter: brightness(0.5);
+  outline: none;
+}
+.header > .navbar {
+  background-color: #ebb29e;
+  box-shadow: 6px 0px 10px grey;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  z-index: 1000;
+}
+.navbar > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbar > ul > .section-links {
+  cursor: pointer;
+}
+.navbar > ul > .section-links:hover {
+  filter: brightness(0.5);
+}
+.navbar > ul > .section-links > .list-items {
+  list-style: none;
+  padding: 1.1em;
+  font-size: 1.1em;
+  color: teal;
+}
+.navbar-not-visible {
+  display: none;
+}
+.navbar > ul > .sub-section-links {
+  cursor: pointer;
+  color: rgb(4, 59, 59);
+}
+.navbar > ul > .sub-section-links:hover {
+  color: aliceblue;
+}

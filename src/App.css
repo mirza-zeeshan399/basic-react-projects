@@ -1,0 +1,30 @@
+#root {
+  /* max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center; */
+
+  
+  max-width: 100%;
+  text-align: center;
+  width: 100dvw;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+}
+/* .scroll-watcher{
+  background:violet;
+  height: 10px;
+  width: 100%;
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  scale: 0 1;
+  animation: scroll-watcher linear;
+  animation-timeline: scroll();
+  transform-origin: left;
+}
+@keyframes scroll-watcher {
+  to{scale: 1 1;}
+} */

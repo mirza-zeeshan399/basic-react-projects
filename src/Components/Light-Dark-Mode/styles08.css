@@ -1,0 +1,17 @@
+.bg{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+.toggle-theme{
+    transition: all 0.5s ease;
+    outline: none;
+    border: none;
+}
+.toggle-theme:focus{
+    outline: none;
+    border: none;
+}

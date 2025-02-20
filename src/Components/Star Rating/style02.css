@@ -1,0 +1,21 @@
+.rating-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    width: 50vw;
+}
+.star-icon{
+    width: 150px;
+    height: 150px;
+    cursor: pointer;
+}
+/* .star-icon:hover{
+    filter: brightness(0.5);
+} */
+.star-icon.filled{
+    fill: gold;
+}
+.active{
+    fill: gold;
+}

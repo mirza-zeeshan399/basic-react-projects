@@ -1,0 +1,15 @@
+ {/* <div className="row">
+          <Square value={squares[0]} handlePlayerTurn={handleSquareClick} />
+          <Square value={squares[1]} handlePlayerTurn={handleSquareClick} />
+          <Square value={squares[2]} handlePlayerTurn={handleSquareClick} />
+        </div>
+        <div className="row">
+          <Square value={squares[3]} handlePlayerTurn={handleSquareClick} />
+          <Square value={squares[4]} handlePlayerTurn={handleSquareClick} />
+          <Square value={squares[5]} handlePlayerTurn={handleSquareClick} />
+        </div>
+        <div className="row">
+          <Square value={squares[6]} handlePlayerTurn={handleSquareClick} />
+          <Square value={squares[7]} handlePlayerTurn={handleSquareClick} />
+          <Square value={squares[8]} handlePlayerTurn={handleSquareClick} />
+        </div>  */}
